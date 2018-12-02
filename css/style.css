@@ -1,0 +1,70 @@
+body {
+    padding: 0 auto;
+    font-size: 1em;
+}
+
+/* Sekcja logowania */
+
+#conteiner_logIn {
+    position: relative;
+    border: 3px solid magenta;
+    border-radius: 15px;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#logo_IV {
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+
+#sect_logIn {
+    position: relative;
+    margin: 50% auto;
+}
+
+#div_login_input {
+    position: relative;
+    margin: 0 0 10px auto;
+
+}
+
+#div_password_input {
+    position: relative;
+    margin: 0 0 10px auto;
+
+}
+
+#btn_submit {
+    position: relative;
+    margin: 0 40% auto;
+}
+
+
+
+
+
+.body_patient_form {
+    display: flex;
+}
+
+.nav {
+    border: 1px solid grey;
+    width: 10%;
+    min-width: 100px;
+    order: -1;
+    background-color: magenta;
+    color: white;
+
+}
+
+
+.form_section {
+    border: 1px solid darkgrey;
+
+}
