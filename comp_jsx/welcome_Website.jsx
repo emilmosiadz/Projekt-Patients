@@ -1,9 +1,12 @@
 import React from 'react';
 import Patient_Form from "./patient_Form.jsx";
 import Medicine_Drugs from "./medice_drugs.jsx";
-import Navi from './navi.jsx'
+import Contractors from './contractors.jsx'
+import Calendar from './calendar.jsx'
+import First from './first.jsx'
 
-import style from "../css/style.css"
+
+import style from "../css/main.css";
 
 import {
     HashRouter,
@@ -23,15 +26,18 @@ class Welcome_Website extends React.Component {
    }
    render(){
      return (
+         <>
              <HashRouter>
-                 <div>
-                         <Route exact path='/' component={Navi}/>
-                         <Route path='/new_patient' component={Patient_Form}/>
-                         <Route path='/medicine_drugs' component={Medicine_Drugs}/>
-                         {/*<Route path='/contacts' component={Contacts}/>*/}
+                 <section>
+                     <Route exact path='/' component={First}/>
+                     <Route path='/new_patient' component={Patient_Form}/>
+                     <Route path='/add_visit' component={Calendar}/>
+                     <Route path='/medicine_drugs' component={Medicine_Drugs}/>
+                     <Route path='/contractors' component={Contractors}/>
                          {/*<Route path='/log_out' component={Log_Out}/>*/}
-                 </div>
+                 </section>
              </HashRouter>
+         </>
      )
    }
  }

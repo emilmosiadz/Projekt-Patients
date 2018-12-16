@@ -21,10 +21,17 @@
     "autoprefixer": "^9.1.5",
     "axios": "^0.18.0",
     "babel-loader": "^8.0.4",
+    "browser-sync": "^2.24.6",
     "css-loader": "^1.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^2.0.0",
     "firebase": "^5.5.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-error-handle": "^1.0.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
     "html-webpack-plugin": "^3.2.0",
     "lodash": "^4.17.11",
     "mini-css-extract-plugin": "^0.4.3",
@@ -45,6 +52,11 @@
   },
   "dependencies": {
     "@react-pdf/renderer": "^1.0.0-alpha.25",
-    "dev": "^0.1.3"
+    "@react-pdf/styled-components": "^1.2.0",
+    "dev": "^0.1.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "react-google-login": "^4.0.0",
+    "react-image": "^1.5.1"
   }
 }
